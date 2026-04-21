@@ -30,7 +30,7 @@ import androidx.core.content.ContextCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String URL = "https://www.zainodigitale.it/#/";
+    private static final String URL = "https://www.zainodigitale.it/#/libri";
     private static final int MIC_CODE = 1001;
     
 
