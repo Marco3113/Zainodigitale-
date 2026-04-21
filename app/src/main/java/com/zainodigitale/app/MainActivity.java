@@ -30,7 +30,7 @@ import androidx.core.content.ContextCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String URL = "https://ZainoDigitale.it";
+    private static final String URL = "https://www.zainodigitale.it/#/";
     private static final int MIC_CODE = 1001;
     
 
@@ -84,8 +84,6 @@ public class MainActivity extends AppCompatActivity {
             
         });
     }
-    
-    
 
     @Override public boolean onKeyDown(int k, KeyEvent e) {
         if (k == KeyEvent.KEYCODE_BACK && webView.canGoBack()) { webView.goBack(); return true; }
